@@ -2,11 +2,20 @@
 This is a simple boilerplate to help bootstrap React applications with Devise for authentication on a Rails backend. 
 
 ## What is included
-* React
+
+#### Backend
 * Ruby on Rails
 * Devise Token Auth (Authentication using Context API)
 * Faker Gem - generating faker data in rails
 * Pry - debugging in rails
+
+#### Client Side
+* React
+* React Router DOM
+* Styled Components
+* Node-Sass
+* Axios for API calls
+* Devise Axios for MiddleWare 
 
 ## How To Use
 
