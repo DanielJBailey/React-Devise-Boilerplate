@@ -21,18 +21,22 @@ This is a simple boilerplate to help bootstrap React applications with Devise fo
 
 * Navigate inside home directory upon downloading and install rails dependencies
 
-**`bundle`**
+`bundle`
+
+* Create Database & Migrate
+
+`rails db:create db:migrate`
 
 * Start rails server
 
-**`rails s -p 3000`**
+`rails s -p 3000`
 
 * Navigate to client folder and install client side dependencies
 
-**`yarn` or `npm install`**
+`yarn` or `npm install`
 
 While inside client folder start React application using the command
 
-**`yarn start` or `npm start`**
+`yarn start` or `npm start`
 
 Feel free to use this boilerplate to help getting started faster, any issues feel free to reach out to me!
