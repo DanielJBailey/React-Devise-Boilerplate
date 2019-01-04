@@ -1,24 +1,25 @@
-# README
+# React Authentication with Devise Boilerplate
+This is a simple boilerplate to help bootstrap React applications with Devise for authentication on a Rails backend. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## What is included
+* React
+* Ruby on Rails
+* Devise Token Auth (Authentication using Context API)
+* Faker Gem - generating faker data in rails
+* Pry - debugging in rails
 
-Things you may want to cover:
+## How To Use
 
-* Ruby version
+* Navigate inside home directory upon downloading and install rails dependencies
+`bundle`
 
-* System dependencies
+* Start rails server
+`rails s -p 3000`
 
-* Configuration
+* Navigate to client folder and install client side dependencies
+`yarn` or `npm install`
 
-* Database creation
+While inside client folder start React application using the command
+`yarn start` or `npm start`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Feel free to use this boilerplate to help getting started faster, any issues feel free to reach out to me!
